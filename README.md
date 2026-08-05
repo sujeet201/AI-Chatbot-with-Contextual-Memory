@@ -71,12 +71,8 @@ SpringAIDemo/
 
 
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
 
 ## Acknowledgements
-
 - [Spring AI](https://spring.io/projects/spring-ai)
 - [OpenAI API](https://openai.com/blog/openai-api)
 - [Anthropic Claude API](https://www.anthropic.com/product)
