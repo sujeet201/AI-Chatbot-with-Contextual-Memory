@@ -80,3 +80,11 @@ SpringAIDemo/
 
 ## Contact
 sujeetpramanik7484@gmail.com
+
+## Resume 
+AI Chatbot with Contextual Memory | Java, Spring Boot, Spring Data JPA, MySQL, REST APIs                                     
+•	Developed an AI chatbot using Spring Boot that generates conversational responses by calling LLM APIs.
+•	Built REST APIs to send user messages, retrieve AI responses, and maintain conversation history. 
+•	Implemented contextual memory to preserve previous interactions and provide context-aware responses across multiple messages. 
+•	Integrated MySQL with Spring Data JPA to persist user conversations and chat history.
+
