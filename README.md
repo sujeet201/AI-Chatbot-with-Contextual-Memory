@@ -1,4 +1,4 @@
-# This repository contains a Spring Boot application that demonstrates the integration of multiple Large Language Models (LLMs) including OpenAI, Anthropic, and Ollama, using the Spring AI library. The project also includes a React-based UI for comparing responses from different models.
+# This repository contains a Spring Boot application that demonstrates the integration of multiple Large Language Models (LLMs) including OpenAI, using the Spring AI library. The project also includes a React-based UI for comparing responses from different models.
 
 ## Project Structure
 
@@ -16,8 +16,8 @@ SpringAIDemo/
 
 - Integration with multiple LLM providers:
     - OpenAI (GPT models)
-    - Anthropic (Claude models)
-    - Ollama (Local models)
+    - Anthropic (Claude models) // excluded 
+    - Ollama (Local models) // excluded
 - REST API endpoints for interacting with each LLM
 - React-based user interface for comparing model responses side-by-side
 - Configurable prompts and model parameters
@@ -26,7 +26,7 @@ SpringAIDemo/
 
 - Java 17 or higher
 - Maven 3.6 or higher
-- Node.js and npm (for the React UI)
+- HTML , CSS , JAVASCRIPT
 - API keys for OpenAI and Anthropic
 - Ollama installed locally
 
@@ -38,50 +38,39 @@ SpringAIDemo/
    git clone https://github.com/navinreddy20/SpringAIwithModels.git
   
    ```
-
 2. Configure your API keys in `application.properties` or via environment variables:
    ```properties
    spring.ai.openai.api-key=your_openai_key
    spring.ai.anthropic.api-key=your_anthropic_key
    # Other configuration properties...
    ```
-
 3. Build the Spring Boot application:
    ```bash
    mvn clean package -DskipTests
    ```
-
 ### Frontend Setup
-
 1. Navigate to the React UI directory:
    ```bash
    cd src/main/llm-comparison-ui
    ```
-
 2. Install dependencies:
    ```bash
    npm install
    ```
-
 3. Build the UI:
    ```bash
    npm run dev
    ```
-
-
-
-
-
 ## Acknowledgements
-- [Spring AI](https://spring.io/projects/spring-ai)
-- [OpenAI API](https://openai.com/blog/openai-api)
-- [Anthropic Claude API](https://www.anthropic.com/product)
-- [Ollama](https://ollama.ai/)
+- [Spring AI](https://spring.io/projects/spring-ai) 
+- [OpenAI API](https://openai.com/blog/openai-api) // EXCLUDED
+- [Anthropic Claude API](https://www.anthropic.com/product) // EXCLUDED 
+- [Ollama](https://ollama.ai/)  // EXCLUDED
 
 ## Contact
 sujeetpramanik7484@gmail.com
 
-## Resume 
+## Resume Headline
 AI Chatbot with Contextual Memory | Java, Spring Boot, Spring Data JPA, MySQL, REST APIs                                     
 •	Developed an AI chatbot using Spring Boot that generates conversational responses by calling LLM APIs.
 •	Built REST APIs to send user messages, retrieve AI responses, and maintain conversation history. 
