@@ -1,3 +1,4 @@
+# AI Chatbot with Contextual Memory | 
 # This repository contains a Spring Boot application that demonstrates the integration of multiple Large Language Models (LLMs) including OpenAI, using the Spring AI library. The project also includes a React-based UI for comparing responses from different models.
 
 ## Project Structure
